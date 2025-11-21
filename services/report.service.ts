@@ -41,7 +41,7 @@ export interface ReportListItem {
   };
   user: {
     id: string;
-    name: string;
+    name: string | null;
   } | null;
 }
 
